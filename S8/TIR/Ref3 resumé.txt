@@ -1,0 +1,67 @@
+Résumé Ref 3 : Challenges of Drive-By IoT Sensing for Smart Cities : City Scanner Case Study
+
+
+Les stations de capteurs fixes sont le principal moyen de collecter des données environnementales dans les villes.
+Encore maintenant, leurs hauts coûts de déploiement et de maintenance résultent souvent dans une surveillance précise mais 
+géographiquement limitée.
+
+On préconise une approche de détection urbaine dans laquelle les véhicules sont utilisés comme capteurs pour scanner 
+la ville avec une résolution spatio-temporelle élevée.
+
+On présente City scanner, une plateforme hautement personnalisable et qui se suffit à elle même qui permet une détection 
+au volant économique.
+Les moudules City Scanner peuvent être dépolyés sur des véhicules existants(bus, taxis) sans interférer avec leurs opérations.
+
+On décrit notre premier prototype qui inclut des modules de détection pour la qualité de l'air, la température, 
+l'humidité and l'imagerie thermique.
+
+Nous discutons des défis que nous avons rencontrés lors d'un déploiement de 8 mois de la plateforme sur les camions à ordures afin
+d'en déduire les implications pour la conception des futurs systèmes de détection au volant.
+
+
+
+
+Ce qu'on retient :
+
+Apport d'alternative aux stations de capteurs via le concept de drive-by Sensing
+Présentation de City Scanner
+
+
+
+
+Refs:
+
+1. city scanner : construction and plannification de plateforme de détection mobile
+MOUAIS
+
+2. des plateformes de capteurs low cost peuvent elles contribuer à la surveillance de la qualité de l'air et aux estimations d'expo?
+MOUAIS
+
+3. Etude de l'utilisation de capteurs portables de pollution atmosphérique pour capturer la variabilité spatiale de 
+la pollution atmosphérique liée au trafic
+OK
+
+4. système informatique de capteurs mobiles distribués
+MOUAIS
+
+5. la montée de la détection low-cost pour la gestion de la pollution de l'air dans les villes
+MOUAIS
+
+6. habilitation de surveillance personnelle de la pollution de l'air sur les vêtements
+NON
+
+7. caractéristiques et application de petits et portables moniteurs de pollution de l'air par du gaz 
+NON
+
+8. Surveillance riche des routes et des conditions de traffic par les téléphones portables 
+OK
+
+9. estimation quotidienne minimum, maximum and moyenne proche de la température de l'air près de la surface 
+utilisant des satélites hybrides à travers l'israel
+NON
+
+10. comptage personnel, précis des particules en suspension dans l'air
+NON
+
+11. variabilité spatiale de la pollution de l'air dans les environs d'une station de surveillance permanente dans le centre de Paris
+NON

@@ -1,0 +1,5 @@
+ls
+mkdir dossiertest
+ls
+rmdir dossiertest
+ls

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="classe participante" version="4">
+  <OBJECT>
+    <ID name="classe participante" mc="Standard.Package" uid="ad658c3c-7baf-4e50-9e78-fa27624d3c3d"/>
+    <PID name="vente sport doubre bertrand" mc="Standard.Package" uid="6c6d4178-b98b-46eb-9312-1eae5256d098"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[classe participante]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BoundaryParticiperVentePrivée" mc="Standard.Class" uid="d710f518-5d9c-4594-86eb-6c03c14f1154"/>
+        <COMPID name="ControlVérifierIdentification" mc="Standard.Class" uid="cc2a35e5-534d-4816-b167-1cb5ed7cfe56"/>
+        <COMPID name="ControlParticiperVente" mc="Standard.Class" uid="422a1a33-351e-4179-abf2-bf85f01b0c2b"/>
+        <COMPID name="EntityProduit" mc="Standard.Class" uid="401169cb-188d-4007-a355-5123c2fc3e1d"/>
+        <COMPID name="Client_Privilegie" mc="Standard.Class" uid="342560f8-9dd3-4131-a3a2-2663638ae8fd"/>
+        <COMPID name="BDvente" mc="Standard.Class" uid="40991c27-d3d5-421c-a3da-724b6df54210"/>
+        <COMPID name="vente" mc="Standard.Class" uid="e1904b03-d925-462d-a7d8-0b739a1d1465"/>
+        <COMPID name="Comptable" mc="Standard.Class" uid="e132684e-aa49-41fa-bb1e-721c94e80f82"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de classe classe participante" mc="Standard.ClassDiagram" uid="6055669c-f06e-4dbb-9564-3e822eb63ef4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

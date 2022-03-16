@@ -1,0 +1,20 @@
+cours 1
+2/ pour un ensemble de machine relié, la couche est un support commun
+de tel sorte que les machines ne se gène pas trop
+CSMA/CD
+transmission et détection de collision
+3/
+retransmission = 0 -> nd échecs
+6/ Tmax = temps maximum de voyage du message (tps de transmission)
+Lmin = longueur des trames
+7/
+perfomance = tps moyen pour transmettre une trame
+on sppose temps pire k = infini
+8/ + le débit est élevé, plus la longueur est grande -> plus il y aura de collision
+11/ augmentation de la charge -> écroulemnt du système
+
+délai de transfert (Df) /= délai de transmission (Dt)
+délai de propagation
+délai d'attente
+
+Df = Dt + Dp + Da

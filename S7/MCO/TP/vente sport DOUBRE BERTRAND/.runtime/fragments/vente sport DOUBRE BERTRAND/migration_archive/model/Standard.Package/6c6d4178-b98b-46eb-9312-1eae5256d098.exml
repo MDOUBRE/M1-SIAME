@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="vente sport doubre bertrand" version="4">
+  <OBJECT>
+    <ID name="vente sport doubre bertrand" mc="Standard.Package" uid="6c6d4178-b98b-46eb-9312-1eae5256d098"/>
+    <PID name="vente sport DOUBRE BERTRAND" mc="Standard.Project" uid="ca33d7ea-710b-450a-85b1-09c723dd88a1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[vente sport doubre bertrand]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="a76b64bc-df47-4be4-b819-f491c9a538fe"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

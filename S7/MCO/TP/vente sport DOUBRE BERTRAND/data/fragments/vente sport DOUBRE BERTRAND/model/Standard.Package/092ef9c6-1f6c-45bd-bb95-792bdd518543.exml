@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Modèle" version="4">
+  <OBJECT>
+    <ID name="Modèle" mc="Standard.Package" uid="092ef9c6-1f6c-45bd-bb95-792bdd518543"/>
+    <PID name="vente sport doubre bertrand" mc="Standard.Package" uid="6c6d4178-b98b-46eb-9312-1eae5256d098"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Modèle]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Client privilégié" mc="Standard.Actor" uid="572502d3-0ac8-4820-91ed-d972611de686"/>
+        <COMPID name="gérant du magasin" mc="Standard.Actor" uid="f215215f-9578-4d78-b988-4958fb742d2c"/>
+        <COMPID name="fournisseur" mc="Standard.Actor" uid="db4f527d-bb56-47e7-88ac-950c89134612"/>
+        <COMPID name="réaliser son inscription" mc="Standard.UseCase" uid="883c9398-7980-4eb2-9084-d45975197613"/>
+        <COMPID name="s'incrire à une vente privée" mc="Standard.UseCase" uid="0f1f36a9-b94b-489c-a26a-da135d6e9306"/>
+        <COMPID name="proposer une vente privée" mc="Standard.UseCase" uid="a7a78831-f3fa-4cad-a1bf-55bd3ed2fd5f"/>
+        <COMPID name="client" mc="Standard.Actor" uid="b29fd089-f549-448a-8574-153b606cf20c"/>
+        <COMPID name="payer son panier" mc="Standard.UseCase" uid="b3d6eb04-9122-4b0f-8eeb-6d9226028e39"/>
+        <COMPID name="valider une vente privée" mc="Standard.UseCase" uid="431b845a-7378-4063-b075-55edbdb18bd6"/>
+        <COMPID name="participer à une vente privée" mc="Standard.UseCase" uid="fb83595f-0f50-4527-a1c9-ff323a891181"/>
+        <COMPID name="ajouter un article à son panier" mc="Standard.UseCase" uid="9476938d-488e-4eb9-abc0-139688566f53"/>
+        <COMPID name="prendre connaissances des produits" mc="Standard.UseCase" uid="c911da29-8c8b-4575-bfab-f8ce3eb95dc6"/>
+        <COMPID name="changer ses informations personelles" mc="Standard.UseCase" uid="ef7aa1b9-a54e-4dac-8302-d2ca1e7b9acd"/>
+        <COMPID name="sélectionner des clients qu'il veut privilégier" mc="Standard.UseCase" uid="c7e1925d-19ff-404f-a629-bd1ea21cf475"/>
+        <COMPID name="notifier client privilégié" mc="Standard.UseCase" uid="d3783ff3-1ec2-41ed-a35f-e6d50a6a2495"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation Modèle" mc="Standard.UseCaseDiagram" uid="6199cdbc-c256-4abe-8f82-c0654ff5dfa3"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

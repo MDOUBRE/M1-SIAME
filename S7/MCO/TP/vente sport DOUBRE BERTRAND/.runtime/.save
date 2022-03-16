@@ -1,0 +1,13 @@
+#Mon Nov 23 10:48:01 CET 2020
+org.modelio.app.diagram.editor.OpenedDiagrams2='Diagramme de s\u00E9quence Interaction' {8fad7d02-e60a-4a21-bbe8-bf13a4590c75} Standard.SequenceDiagram
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @null\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+org.modelio.module.propertytab.JavaDesigner\ v3.8.01\ GModule\ @file\:///C\:/Users/BRJ2177A/.modelio/3.8/modules/JavaDesigner_3.8.01/JavaDesigner_3.8.01.jmdac\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @null\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.diagram.editor.OpenedDiagrams1='Diagramme de classe classe participante' {6055669c-f06e-4dbb-9564-3e822eb63ef4} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams0='Diagramme de s\u00E9quence Interaction' {b8931bde-b78a-4528-a83c-cbbabad3f89e} Standard.SequenceDiagram
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @null\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @null\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
+org.modelio.diagram.editor.OpenedDiagrams0='Activity diagram' {2d9d78fb-a79a-4b00-a3ff-3569b5509074} Standard.ActivityDiagram
+org.modelio.module.propertytab.JavaDesigner\ v3.8.01\ GModule\ @file\:///C\:/Users/BRJ2177A/.modelio/3.8/modules/JavaDesigner_3.8.01/JavaDesigner_3.8.01.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.module.propertytab.JavaDesigner\ v3.8.01\ GModule\ @file\:///C\:/Users/BRJ2177A/.modelio/3.8/modules/JavaDesigner_3.8.01/JavaDesigner_3.8.01.jmdac\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
+org.modelio.module.propertytab.JavaDesigner\ v3.8.01\ GModule\ @file\:///C\:/Users/BRJ2177A/.modelio/3.8/modules/JavaDesigner_3.8.01/JavaDesigner_3.8.01.jmdac\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts

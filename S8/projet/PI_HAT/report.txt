@@ -1,0 +1,39 @@
+Info: Traitement du symbole "U6:Library:SSR_AQG22105".
+Info: Traitement du symbole "U2:Package_DIP:DIP-18_W7.62mm_Socket".
+Info: Traitement du symbole "U1:Package_DIP:DIP-28_W7.62mm_Socket".
+Info: Traitement du symbole "R2:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder".
+Info: Traitement du symbole "R1:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal".
+Info: Traitement du symbole "K2:Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C".
+Info: Traitement du symbole "K1:Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C".
+Info: Traitement du symbole "C1:Capacitor_SMD:CP_Elec_3x5.4".
+Info: Traitement du symbole "U3:Package_DIP:DIP-8_W7.62mm_Socket".
+Info: Traitement du symbole "U4:Library:SSR_AQG22105".
+Info: Traitement du symbole "U5:Library:SSR_AQG22105".
+Info: Traitement du symbole "J4:Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal".
+Info: Traitement du symbole "J3:TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03406HBLC_1x06_P3.81mm_Horizontal".
+Info: Traitement du symbole "J2:TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03406HBLC_1x06_P3.81mm_Horizontal".
+Info: Traitement du symbole "J1:TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03406HBLC_1x06_P3.81mm_Horizontal".
+Info: Traitement du symbole "GPIO1:Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical".
+Info: Traitement du symbole "U7:Library:SSR_AQG22105".
+Info: Traitement du symbole "U8:Library:SSR_AQG22105".
+Info: Traitement du symbole "U9:Library:SSR_AQG22105".
+Connecter J4 pin 1 à +3V3.
+Change empreinte "U5" de "Package_SO:SO-4_4.4x4.3mm_P2.54mm" en "Library:SSR_AQG22105".
+Change empreinte "U4" de "Package_SO:SO-4_4.4x4.3mm_P2.54mm" en "Library:SSR_AQG22105".
+Change empreinte "U6" de "Package_SO:SO-4_4.4x4.3mm_P2.54mm" en "Library:SSR_AQG22105".
+Change empreinte "U7" de "Package_SO:SO-4_4.4x4.3mm_P2.54mm" en "Library:SSR_AQG22105".
+Change empreinte "U8" de "Package_SO:SO-4_4.4x4.3mm_P2.54mm" en "Library:SSR_AQG22105".
+Change empreinte "U9" de "Package_SO:SO-4_4.4x4.3mm_P2.54mm" en "Library:SSR_AQG22105".
+Connecter J4 pin 2 à Net-(J4-Pad2).
+Mise à jour des propriétés de J4.
+Mise à jour J4 association de symbole de  à /b94da3e9-c4c7-4780-8f4a-013d8af3ed4c.
+Modifie valeur J4 de PinHeader_1x02_P1.00mm_Horizontal en Conn_01x02_Female.
+Change la référence schématique de REF** en J4.
+Ajout J4 (empreinte:Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal).
+Connecter C1 pin 1 à Net-(GPIO1-Pad7).
+Connecter C1 pin 2 à GNDREF.
+Mise à jour des propriétés de C1.
+Mise à jour C1 association de symbole de  à /ef1c512f-7ab3-4dab-a8ce-7fea54979e73.
+Modifie valeur C1 de CP_Elec_3x5.4 en C_Small.
+Change la référence schématique de REF** en C1.
+Ajout C1 (empreinte:Capacitor_SMD:CP_Elec_3x5.4).

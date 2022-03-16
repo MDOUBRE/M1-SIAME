@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head><meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>3DIS TP n°2</title></head><body>
+<h1 style="text-align: center; font-family: Helvetica,Arial,sans-serif;">M1 3DIS - TP n°2</h1>
+<br style="font-family: Helvetica,Arial,sans-serif;">
+
+
+<h2><b>I. Génération d'un signal<o:p></o:p></b></h2>
+<p class="MsoNormal" style="text-align: justify;">
+La première partie de ce TP va consister à produire un signal comportant des notes de musique.<br>
+Le signal à générer consistera en la séquence : 
+[Silence] [DO3] [Silence] [MI3] [Silence] [SOL3] [Silence] [DO4] [Silence].<br>
+Ceci est une arpège de la gamme naturelle en Do majeur.</p>
+
+<p class="MsoNormal" style="text-align: justify;"><span style="">&nbsp;&nbsp;&nbsp;
+</span>* Un [Silence] sera une séquence de 100 ms durant laquelle le signal comporte des 0.</p>
+<p class="MsoNormal" style="text-align: justify;"><span style="">&nbsp;&nbsp;&nbsp;
+</span>* Un [DO3] sera une séquence d'1 seconde durant laquelle le signal représente une sinusoïde de fréquence 262 Hz.</p>
+<p class="MsoNormal" style="text-align: justify;"><span style="">&nbsp;&nbsp;&nbsp;
+</span>* Un [MI3] sera une séquence d'1 seconde durant laquelle le signal représente une sinusoïde de fréquence 330 Hz.</p>
+<p class="MsoNormal" style="text-align: justify;"><span style="">&nbsp;&nbsp;&nbsp;
+</span>* Un [SOL3] sera une séquence d'1 seconde durant laquelle le signal représente une sinusoïde de fréquence 392 Hz.</p>
+<p class="MsoNormal" style="text-align: justify;"><span style="">&nbsp;&nbsp;&nbsp;
+</span>* Un [DO4] sera une séquence d'1 seconde durant laquelle le signal représente une sinusoïde de fréquence 523 Hz.</p>
+<p class="MsoNormal" style="text-align: justify;">Pour les notes DO3, MI3, SOL3 et DO4, l'amplitude de la sinusoïde sera comprise entre -0.8 et +0.8.</p><br>
+
+<ol>
+<li>Générer un signal S1 décrivant cette mélodie, à raison de 8000 échantillons par seconde.</li><br>
+<li>Générer ensuite un signal S2, correspondant à S1 auquel on associe un bruit additionnel. 
+Ce bruit consistera à ajouter une valeur aléatoire comprise entre -0.2 et 0.2 à S1.</li><br>
+</ol>
+
+
+<h2><b>II. Calcul du spectrogramme<o:p></o:p></b></h2>
+<table text-align: left;" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><img alt="Spectrogramme de quatre notes" src="TP2_files/spectro_notes.jpg"><br>
+      </td>
+      <td style="vertical-align: top;"><br><br><br><br><br>
+	<ol>
+	<li>Ecrire une fonction spectrogramme : <span style="font-family: Courier New,Courier,monospace;">function mat_spectro = spectro(signal, taille_fenetre, pas)</span></li><br><br><br>
+	<li>Calculer le spectrogramme de S1 et de S2 sur des fenêtres glissantes de 1024 échantillons avec un pas de 100 échantillons.</li><br><br><br>
+	<li>Tester d'autres valeurs de taille de fenêtre et de pas : interpréter leur rôle.</li><br>
+	</ol>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+
+<h2><b>III. Autres signaux<o:p></o:p></b></h2>
+<ol>
+  <li>Composer un signal musical à votre convenance et observer le spectrogramme correspondant. Pour information, le tableau ci-dessous donne la liste des fréquences des notes de musique de la gamme naturelle :</li>
+
+<p class="MsoNormal" style="text-align: justify;">Do2<span style="">&nbsp;&nbsp;
+</span>Ré2<span style="">&nbsp;&nbsp; </span>Mi2<span style="">&nbsp;&nbsp;&nbsp; </span>Fa2<span style="">&nbsp;&nbsp;
+</span>Sol2<span style="">&nbsp;&nbsp; </span>La2<span style="">&nbsp;&nbsp;&nbsp; </span>Si2<span style="">&nbsp;&nbsp;&nbsp;
+</span>Do3<span style="">&nbsp;&nbsp;&nbsp; </span>Ré3<span style="">&nbsp;&nbsp; </span>Mi3<span style="">&nbsp;&nbsp;&nbsp;
+</span>Fa3<span style="">&nbsp;&nbsp; </span>Sol3<span style="">&nbsp;&nbsp;&nbsp; </span>La3
+<span style="">&nbsp;&nbsp; </span>Si3<span style="">&nbsp;&nbsp;
+</span>Do4<span style="">&nbsp;&nbsp;&nbsp; </span>Ré4<span style="">&nbsp;&nbsp; </span>Mi4<span style="">&nbsp;&nbsp;&nbsp;
+</span>Fa4<span style="">&nbsp;&nbsp; </span>Sol4<span style="">&nbsp;&nbsp;&nbsp; </span>La4<span style="">&nbsp;&nbsp;&nbsp;
+</span>Si4</p>
+<p class="MsoNormal" style="text-align: justify;">131<span style="">&nbsp;&nbsp;&nbsp;
+</span>147<span style="">&nbsp;&nbsp;&nbsp; </span>165<span style="">&nbsp;&nbsp;&nbsp;
+</span>175<span style="">&nbsp;&nbsp;&nbsp; </span>196<span style="">&nbsp;&nbsp;&nbsp; </span>220<span style="">&nbsp;&nbsp;&nbsp;
+</span>247<span style="">&nbsp;&nbsp;&nbsp; </span>262<span style="">&nbsp;&nbsp;&nbsp;
+</span>294<span style="">&nbsp;&nbsp;&nbsp; </span>330<span style="">&nbsp;&nbsp;&nbsp; </span>349<span style="">&nbsp;&nbsp;&nbsp;
+</span>392<span style="">&nbsp;&nbsp;&nbsp; </span>440<span style="">&nbsp;&nbsp;&nbsp; </span>494<span style="">&nbsp;&nbsp;&nbsp;
+</span>523<span style="">&nbsp;&nbsp;&nbsp; </span>587<span style="">&nbsp;&nbsp;&nbsp; </span>659<span style="">&nbsp;&nbsp;&nbsp;
+</span>698<span style="">&nbsp;&nbsp;&nbsp; </span>784<span style="">&nbsp;&nbsp;&nbsp; </span>880<span style="">&nbsp;&nbsp;&nbsp;
+</span>988<br>
+</p><br>
+  
+  <li>Utiliser le fichier de parole du TP1 pour en visualiser le spectrogramme. Qu'en tirez-vous comme conclusion sur les caractéristiques de la parole ?<br></li><br>
+</ol>
+
+
+<h2>IV. Références</h2>
+<p class="MsoNormal" style="text-align: justify;">Ce sujet a été crée par Philippe Joly pour le M1 TC4.<br>
+</p><br>
+
+
+</body></html>

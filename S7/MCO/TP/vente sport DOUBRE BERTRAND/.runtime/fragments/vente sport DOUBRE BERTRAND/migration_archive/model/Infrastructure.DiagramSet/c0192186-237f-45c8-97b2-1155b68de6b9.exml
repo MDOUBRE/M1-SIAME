@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="vente sport DOUBRE BERTRAND" version="4">
+  <OBJECT>
+    <ID name="vente sport DOUBRE BERTRAND" mc="Infrastructure.DiagramSet" uid="c0192186-237f-45c8-97b2-1155b68de6b9"/>
+    <PID name="vente sport DOUBRE BERTRAND" mc="Standard.Project" uid="ca33d7ea-710b-450a-85b1-09c723dd88a1"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[vente sport DOUBRE BERTRAND]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

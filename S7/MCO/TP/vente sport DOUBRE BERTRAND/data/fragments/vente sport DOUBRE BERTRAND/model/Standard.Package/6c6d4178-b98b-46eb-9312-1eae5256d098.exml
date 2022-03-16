@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="vente sport doubre bertrand" version="4">
+  <OBJECT>
+    <ID name="vente sport doubre bertrand" mc="Standard.Package" uid="6c6d4178-b98b-46eb-9312-1eae5256d098"/>
+    <PID name="vente sport DOUBRE BERTRAND" mc="Standard.Project" uid="ca33d7ea-710b-450a-85b1-09c723dd88a1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[vente sport doubre bertrand]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="a76b64bc-df47-4be4-b819-f491c9a538fe"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Class" mc="Standard.Class" uid="93369a45-5e00-4014-a65a-1d6cdef514b4"/>
+        <COMPID name="Modèle" mc="Standard.Package" uid="092ef9c6-1f6c-45bd-bb95-792bdd518543"/>
+        <COMPID name="seq vente" mc="Standard.Package" uid="e74b15f5-faab-44ff-80db-5e7acaeac4eb"/>
+        <COMPID name="seq détaillé" mc="Standard.Package" uid="7829b634-78c0-4321-b075-7b409c80b2ce"/>
+        <COMPID name="classe participante" mc="Standard.Package" uid="ad658c3c-7baf-4e50-9e78-fa27624d3c3d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

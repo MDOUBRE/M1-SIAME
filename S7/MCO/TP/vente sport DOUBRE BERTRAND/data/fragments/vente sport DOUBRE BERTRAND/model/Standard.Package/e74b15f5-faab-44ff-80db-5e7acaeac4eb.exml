@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="seq vente" version="4">
+  <OBJECT>
+    <ID name="seq vente" mc="Standard.Package" uid="e74b15f5-faab-44ff-80db-5e7acaeac4eb"/>
+    <PID name="vente sport doubre bertrand" mc="Standard.Package" uid="6c6d4178-b98b-46eb-9312-1eae5256d098"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[seq vente]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="b5e3ebe8-7ff0-4d70-999c-3503381ce92f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\BENARFA\OneDrive\Bureau\Kicad_HAT_FAN\PI_HAT.kicad_sch</source>
+    <date>12/02/2021 01:41:53</date>
+    <tool>Eeschema (5.99.0-8925-gd70cebcd62)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PI_HAT.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="GPIO1">
+      <value>Raspberry_Pi_2_3</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf</datasheet>
+      <libsource lib="Connector" part="Raspberry_Pi_2_3" description="expansion header for Raspberry Pi 2 &amp; 3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>00000000-0000-0000-0000-00005d7cacf4</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x06</value>
+      <footprint>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03406HBLC_1x06_P3.81mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x06" description="Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7ef356e1-487c-43e6-9e22-e4f77e65b9bd</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x06</value>
+      <footprint>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03406HBLC_1x06_P3.81mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x06" description="Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2faa62a4-a0db-4651-84db-a9e576c8c62b</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x06</value>
+      <footprint>TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03406HBLC_1x06_P3.81mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x06" description="Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>e76c1e03-fd9b-4f7f-b572-7329ed15d906</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>SANYOU_SRD_Form_C</value>
+      <footprint>Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</footprint>
+      <datasheet>http://www.sanyourelay.ca/public/products/pdf/SRD.pdf</datasheet>
+      <libsource lib="Relay" part="SANYOU_SRD_Form_C" description="Sanyo SRD relay, Single Pole Miniature Power Relay,"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>21c4b2b9-4873-46fa-9b21-b65d1aef171d</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>SANYOU_SRD_Form_C</value>
+      <footprint>Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</footprint>
+      <datasheet>http://www.sanyourelay.ca/public/products/pdf/SRD.pdf</datasheet>
+      <libsource lib="Relay" part="SANYOU_SRD_Form_C" description="Sanyo SRD relay, Single Pole Miniature Power Relay,"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7c26c776-463c-43a4-8c8b-7271de1c2e30</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>e7b7ca79-e55a-46b5-a3b3-1365118a789c</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10000</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>f30928ce-6308-4484-81a7-c3b7655cf108</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP23S17_SO</value>
+      <footprint>Package_DIP:DIP-28_W7.62mm_Socket</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</datasheet>
+      <libsource lib="Interface_Expansion" part="MCP23S17_SO" description="16-bit I/O expander, SPI, interrupts, w pull-ups, SOIC-28"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>93e421b6-85fa-4242-888a-8d939ec40c25</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ULN2803A</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/uln2803a.pdf</datasheet>
+      <libsource lib="Transistor_Array" part="ULN2803A" description="Darlington Transistor Arrays, SOIC18/DIP18"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>48000af7-9f4c-4784-816f-9f78bd1e516a</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>AT24C32</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8869-SEEPROM-AT24CS32-Datasheet.pdf</datasheet>
+      <libsource lib="Memory_EEPROM" part="AT24CS32-SSHM" description="I2C Serial EEPROM, 32Kb (4096x8) with Unique Serial Number, SO8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>c2664bea-06f7-4d01-8653-41b090e770fa</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ASSR-1218</value>
+      <footprint>Package_SO:SO-4_4.4x4.3mm_P2.54mm</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-0173EN</datasheet>
+      <libsource lib="Relay_SolidState" part="ASSR-1218" description="Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>f5bb6f86-9e39-44e0-9c4a-3903ba258b91</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>ASSR-1218</value>
+      <footprint>Package_SO:SO-4_4.4x4.3mm_P2.54mm</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-0173EN</datasheet>
+      <libsource lib="Relay_SolidState" part="ASSR-1218" description="Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4a3c1503-90c7-4be0-80aa-ab94ff7011ec</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>ASSR-1218</value>
+      <footprint>Package_SO:SO-4_4.4x4.3mm_P2.54mm</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-0173EN</datasheet>
+      <libsource lib="Relay_SolidState" part="ASSR-1218" description="Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5c491a74-5ed0-4965-bfcb-ce0b8343e1aa</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>ASSR-1218</value>
+      <footprint>Package_SO:SO-4_4.4x4.3mm_P2.54mm</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-0173EN</datasheet>
+      <libsource lib="Relay_SolidState" part="ASSR-1218" description="Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6458cca4-2f99-4b14-890a-3576a36d7215</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>ASSR-1218</value>
+      <footprint>Package_SO:SO-4_4.4x4.3mm_P2.54mm</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-0173EN</datasheet>
+      <libsource lib="Relay_SolidState" part="ASSR-1218" description="Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>b64f7857-1d7f-4b0f-b952-54aeb75ddb41</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>ASSR-1218</value>
+      <footprint>Package_SO:SO-4_4.4x4.3mm_P2.54mm</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-0173EN</datasheet>
+      <libsource lib="Relay_SolidState" part="ASSR-1218" description="Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PI_HAT.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>3b6eba39-ad11-47e2-bedf-bd32917116a5</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Raspberry_Pi_2_3">
+      <description>expansion header for Raspberry Pi 2 &amp; 3</description>
+      <docs>https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf</docs>
+      <footprints>
+        <fp>PinHeader*2x20*P2.54mm*Vertical*</fp>
+        <fp>PinSocket*2x20*P2.54mm*Vertical*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Raspberry_Pi_2_3</field>
+        <field name="Datasheet">https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="5V" type="power_in"/>
+        <pin num="3" name="SDA/GPIO2" type="bidirectional"/>
+        <pin num="4" name="5V" type="power_in"/>
+        <pin num="5" name="SCL/GPIO3" type="bidirectional"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GCLK0/GPIO4" type="bidirectional"/>
+        <pin num="8" name="GPIO14/TXD" type="bidirectional"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GPIO15/RXD" type="bidirectional"/>
+        <pin num="11" name="GPIO17" type="bidirectional"/>
+        <pin num="12" name="GPIO18/PWM0" type="bidirectional"/>
+        <pin num="13" name="GPIO27" type="bidirectional"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="GPIO22" type="bidirectional"/>
+        <pin num="16" name="GPIO23" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_in"/>
+        <pin num="18" name="GPIO24" type="bidirectional"/>
+        <pin num="19" name="MOSI0/GPIO10" type="bidirectional"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="MISO0/GPIO9" type="bidirectional"/>
+        <pin num="22" name="GPIO25" type="bidirectional"/>
+        <pin num="23" name="SCLK0/GPIO11" type="bidirectional"/>
+        <pin num="24" name="~CE0~/GPIO8" type="bidirectional"/>
+        <pin num="25" name="GND" type="power_in"/>
+        <pin num="26" name="~CE1~/GPIO7" type="bidirectional"/>
+        <pin num="27" name="ID_SD/GPIO0" type="bidirectional"/>
+        <pin num="28" name="ID_SC/GPIO1" type="bidirectional"/>
+        <pin num="29" name="GCLK1/GPIO5" type="bidirectional"/>
+        <pin num="30" name="GND" type="power_in"/>
+        <pin num="31" name="GCLK2/GPIO6" type="bidirectional"/>
+        <pin num="32" name="PWM0/GPIO12" type="bidirectional"/>
+        <pin num="33" name="PWM1/GPIO13" type="bidirectional"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="GPIO19/MISO1" type="bidirectional"/>
+        <pin num="36" name="GPIO16" type="bidirectional"/>
+        <pin num="37" name="GPIO26" type="bidirectional"/>
+        <pin num="38" name="GPIO20/MOSI1" type="bidirectional"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="GPIO21/SCLK1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x06">
+      <description>Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Expansion" part="MCP23S17_SO">
+      <description>16-bit I/O expander, SPI, interrupts, w pull-ups, SOIC-28</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x17.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23S17_SO</field>
+        <field name="Footprint">Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPB0" type="bidirectional"/>
+        <pin num="2" name="GPB1" type="bidirectional"/>
+        <pin num="3" name="GPB2" type="bidirectional"/>
+        <pin num="4" name="GPB3" type="bidirectional"/>
+        <pin num="5" name="GPB4" type="bidirectional"/>
+        <pin num="6" name="GPB5" type="bidirectional"/>
+        <pin num="7" name="GPB6" type="bidirectional"/>
+        <pin num="8" name="GPB7" type="bidirectional"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="VSS" type="power_in"/>
+        <pin num="11" name="~CS~" type="input"/>
+        <pin num="12" name="SCK" type="input"/>
+        <pin num="13" name="SI" type="input"/>
+        <pin num="14" name="SO" type="output"/>
+        <pin num="15" name="A0" type="input"/>
+        <pin num="16" name="A1" type="input"/>
+        <pin num="17" name="A2" type="input"/>
+        <pin num="18" name="~RESET~" type="input"/>
+        <pin num="19" name="INTB" type="tri_state"/>
+        <pin num="20" name="INTA" type="tri_state"/>
+        <pin num="21" name="GPA0" type="bidirectional"/>
+        <pin num="22" name="GPA1" type="bidirectional"/>
+        <pin num="23" name="GPA2" type="bidirectional"/>
+        <pin num="24" name="GPA3" type="bidirectional"/>
+        <pin num="25" name="GPA4" type="bidirectional"/>
+        <pin num="26" name="GPA5" type="bidirectional"/>
+        <pin num="27" name="GPA6" type="bidirectional"/>
+        <pin num="28" name="GPA7" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_EEPROM" part="AT24CS32-SSHM">
+      <description>I2C Serial EEPROM, 32Kb (4096x8) with Unique Serial Number, SO8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8869-SEEPROM-AT24CS32-Datasheet.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AT24CS32-SSHM</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8869-SEEPROM-AT24CS32-Datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="bidirectional"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="SANYOU_SRD_Form_C">
+      <description>Sanyo SRD relay, Single Pole Miniature Power Relay,</description>
+      <docs>http://www.sanyourelay.ca/public/products/pdf/SRD.pdf</docs>
+      <footprints>
+        <fp>Relay*SPDT*SANYOU*SRD*Series*Form*C*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">SANYOU_SRD_Form_C</field>
+        <field name="Footprint">Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</field>
+        <field name="Datasheet">http://www.sanyourelay.ca/public/products/pdf/SRD.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay_SolidState" part="ASSR-1218">
+      <description>Form A, Solid State Relay (Photo MOSFET) 60V, 0.2A, 10Ohm, SO-4</description>
+      <docs>https://docs.broadcom.com/docs/AV02-0173EN</docs>
+      <footprints>
+        <fp>SO*4.4x4.3mm*P2.54mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ASSR-1218</field>
+        <field name="Footprint">Package_SO:SO-4_4.4x4.3mm_P2.54mm</field>
+        <field name="Datasheet">https://docs.broadcom.com/docs/AV02-0173EN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_Array" part="ULN2803A">
+      <description>Darlington Transistor Arrays, SOIC18/DIP18</description>
+      <docs>http://www.ti.com/lit/ds/symlink/uln2803a.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*7.5x11.6mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ULN2803A</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/uln2803a.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I1" type="input"/>
+        <pin num="2" name="I2" type="input"/>
+        <pin num="3" name="I3" type="input"/>
+        <pin num="4" name="I4" type="input"/>
+        <pin num="5" name="I5" type="input"/>
+        <pin num="6" name="I6" type="input"/>
+        <pin num="7" name="I7" type="input"/>
+        <pin num="8" name="I8" type="input"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="COM" type="passive"/>
+        <pin num="11" name="O8" type="open_collector"/>
+        <pin num="12" name="O7" type="open_collector"/>
+        <pin num="13" name="O6" type="open_collector"/>
+        <pin num="14" name="O5" type="open_collector"/>
+        <pin num="15" name="O4" type="open_collector"/>
+        <pin num="16" name="O3" type="open_collector"/>
+        <pin num="17" name="O2" type="open_collector"/>
+        <pin num="18" name="O1" type="open_collector"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\5.99\share\kicad\library/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\5.99\share\kicad\library/Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_Expansion">
+      <uri>C:\Program Files\KiCad\5.99\share\kicad\library/Interface_Expansion.kicad_sym</uri>
+    </library>
+    <library logical="Memory_EEPROM">
+      <uri>C:\Program Files\KiCad\5.99\share\kicad\library/Memory_EEPROM.kicad_sym</uri>
+    </library>
+    <library logical="Relay">
+      <uri>C:\Program Files\KiCad\5.99\share\kicad\library/Relay.kicad_sym</uri>
+    </library>
+    <library logical="Relay_SolidState">
+      <uri>C:\Program Files\KiCad\5.99\share\kicad\library/Relay_SolidState.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_Array">
+      <uri>C:\Program Files\KiCad\5.99\share\kicad\library/Transistor_Array.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="GPIO1" pin="1" pinfunction="3V3" pintype="power_in"/>
+      <node ref="GPIO1" pin="17" pinfunction="3V3" pintype="power_in"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="GPIO1" pin="2" pinfunction="5V" pintype="power_in"/>
+      <node ref="GPIO1" pin="4" pinfunction="5V" pintype="power_in"/>
+      <node ref="K1" pin="1" pintype="passive"/>
+      <node ref="K2" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="COM" pintype="passive"/>
+      <node ref="U4" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pintype="passive"/>
+      <node ref="U6" pin="2" pintype="passive"/>
+      <node ref="U7" pin="2" pintype="passive"/>
+      <node ref="U8" pin="2" pintype="passive"/>
+      <node ref="U9" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="GNDREF">
+      <node ref="GPIO1" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="GPIO1" pin="20" pinfunction="GND" pintype="power_in"/>
+      <node ref="GPIO1" pin="25" pinfunction="GND" pintype="power_in"/>
+      <node ref="GPIO1" pin="30" pinfunction="GND" pintype="power_in"/>
+      <node ref="GPIO1" pin="34" pinfunction="GND" pintype="power_in"/>
+      <node ref="GPIO1" pin="39" pinfunction="GND" pintype="power_in"/>
+      <node ref="GPIO1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="GPIO1" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="10" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="15" pinfunction="A0" pintype="input"/>
+      <node ref="U1" pin="16" pinfunction="A1" pintype="input"/>
+      <node ref="U1" pin="17" pinfunction="A2" pintype="input"/>
+      <node ref="U2" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="A1" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="4" name="Net-(GPIO1-Pad19)">
+      <node ref="GPIO1" pin="19" pinfunction="MOSI0/GPIO10" pintype="bidirectional"/>
+      <node ref="U1" pin="13" pinfunction="SI" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(GPIO1-Pad21)">
+      <node ref="GPIO1" pin="21" pinfunction="MISO0/GPIO9" pintype="bidirectional"/>
+      <node ref="U1" pin="14" pinfunction="SO" pintype="output"/>
+    </net>
+    <net code="6" name="Net-(GPIO1-Pad23)">
+      <node ref="GPIO1" pin="23" pinfunction="SCLK0/GPIO11" pintype="bidirectional"/>
+      <node ref="U1" pin="12" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(GPIO1-Pad24)">
+      <node ref="GPIO1" pin="24" pinfunction="~CE0~/GPIO8" pintype="bidirectional"/>
+      <node ref="U1" pin="11" pinfunction="~CS~" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(GPIO1-Pad27)">
+      <node ref="GPIO1" pin="27" pinfunction="ID_SD/GPIO0" pintype="bidirectional"/>
+      <node ref="U3" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="Net-(GPIO1-Pad28)">
+      <node ref="GPIO1" pin="28" pinfunction="ID_SC/GPIO1" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="4" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="3" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="4" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U5" pin="3" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U6" pin="4" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U6" pin="3" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U7" pin="4" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U7" pin="3" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U8" pin="4" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U8" pin="3" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U9" pin="4" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U9" pin="3" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="K1" pin="5" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="K1" pin="4" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="K1" pin="3" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="K2" pin="5" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(J3-Pad5)">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="K2" pin="4" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="K2" pin="3" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(K1-Pad2)">
+      <node ref="K1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="O7" pintype="open_collector"/>
+    </net>
+    <net code="29" name="Net-(K2-Pad2)">
+      <node ref="K2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="O8" pintype="open_collector"/>
+    </net>
+    <net code="30" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="~RESET~" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="WP" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="GPB0" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="I1" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="GPB1" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="I2" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="GPB2" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="I3" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="GPB3" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="I4" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="GPB4" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="I5" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="GPB5" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="I6" pintype="input"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="GPB6" pintype="bidirectional"/>
+      <node ref="U2" pin="7" pinfunction="I7" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="GPB7" pintype="bidirectional"/>
+      <node ref="U2" pin="8" pinfunction="I8" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13" pinfunction="O6" pintype="open_collector"/>
+      <node ref="U9" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14" pinfunction="O5" pintype="open_collector"/>
+      <node ref="U8" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15" pinfunction="O4" pintype="open_collector"/>
+      <node ref="U7" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16" pinfunction="O3" pintype="open_collector"/>
+      <node ref="U6" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17" pinfunction="O2" pintype="open_collector"/>
+      <node ref="U5" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18" pinfunction="O1" pintype="open_collector"/>
+      <node ref="U4" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="unconnected-(GPIO1-Pad3)">
+      <node ref="GPIO1" pin="3" pinfunction="SDA/GPIO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(GPIO1-Pad5)">
+      <node ref="GPIO1" pin="5" pinfunction="SCL/GPIO3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(GPIO1-Pad7)">
+      <node ref="GPIO1" pin="7" pinfunction="GCLK0/GPIO4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(GPIO1-Pad8)">
+      <node ref="GPIO1" pin="8" pinfunction="GPIO14/TXD" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(GPIO1-Pad10)">
+      <node ref="GPIO1" pin="10" pinfunction="GPIO15/RXD" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(GPIO1-Pad11)">
+      <node ref="GPIO1" pin="11" pinfunction="GPIO17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(GPIO1-Pad12)">
+      <node ref="GPIO1" pin="12" pinfunction="GPIO18/PWM0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(GPIO1-Pad13)">
+      <node ref="GPIO1" pin="13" pinfunction="GPIO27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(GPIO1-Pad15)">
+      <node ref="GPIO1" pin="15" pinfunction="GPIO22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(GPIO1-Pad16)">
+      <node ref="GPIO1" pin="16" pinfunction="GPIO23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(GPIO1-Pad18)">
+      <node ref="GPIO1" pin="18" pinfunction="GPIO24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(GPIO1-Pad22)">
+      <node ref="GPIO1" pin="22" pinfunction="GPIO25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(GPIO1-Pad26)">
+      <node ref="GPIO1" pin="26" pinfunction="~CE1~/GPIO7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(GPIO1-Pad29)">
+      <node ref="GPIO1" pin="29" pinfunction="GCLK1/GPIO5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(GPIO1-Pad31)">
+      <node ref="GPIO1" pin="31" pinfunction="GCLK2/GPIO6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(GPIO1-Pad32)">
+      <node ref="GPIO1" pin="32" pinfunction="PWM0/GPIO12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(GPIO1-Pad33)">
+      <node ref="GPIO1" pin="33" pinfunction="PWM1/GPIO13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(GPIO1-Pad35)">
+      <node ref="GPIO1" pin="35" pinfunction="GPIO19/MISO1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(GPIO1-Pad36)">
+      <node ref="GPIO1" pin="36" pinfunction="GPIO16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(GPIO1-Pad37)">
+      <node ref="GPIO1" pin="37" pinfunction="GPIO26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(GPIO1-Pad38)">
+      <node ref="GPIO1" pin="38" pinfunction="GPIO20/MOSI1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(GPIO1-Pad40)">
+      <node ref="GPIO1" pin="40" pinfunction="GPIO21/SCLK1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U1-Pad19)">
+      <node ref="U1" pin="19" pinfunction="INTB" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U1-Pad20)">
+      <node ref="U1" pin="20" pinfunction="INTA" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U1-Pad21)">
+      <node ref="U1" pin="21" pinfunction="GPA0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U1-Pad22)">
+      <node ref="U1" pin="22" pinfunction="GPA1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U1-Pad23)">
+      <node ref="U1" pin="23" pinfunction="GPA2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U1-Pad24)">
+      <node ref="U1" pin="24" pinfunction="GPA3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U1-Pad25)">
+      <node ref="U1" pin="25" pinfunction="GPA4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U1-Pad26)">
+      <node ref="U1" pin="26" pinfunction="GPA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U1-Pad27)">
+      <node ref="U1" pin="27" pinfunction="GPA6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U1-Pad28)">
+      <node ref="U1" pin="28" pinfunction="GPA7" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
