@@ -1,0 +1,1 @@
+g++  -Wall -Werror -g -ggdb   CMakeFiles/calc2.dir/src/main.cpp.o CMakeFiles/calc2.dir/src/program.cpp.o CMakeFiles/calc2.dir/src/expression.cpp.o CMakeFiles/calc2.dir/src/tokenstring.cpp.o CMakeFiles/calc2.dir/src/token.cpp.o  -o calc2 

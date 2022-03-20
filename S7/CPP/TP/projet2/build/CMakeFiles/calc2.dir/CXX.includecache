@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/Maskime/A/M1/CPP/projet2/src/token.h
+iostream
+-
+
+/home/Maskime/A/M1/CPP/projet2/src/tokenstring.cpp
+list
+-
+sstream
+-
+iostream
+-
+math.h
+-
+tokenstring.h
+/home/Maskime/A/M1/CPP/projet2/src/tokenstring.h
+
+/home/Maskime/A/M1/CPP/projet2/src/tokenstring.h
+iostream
+-
+list
+-
+map
+-
+functional
+-
+vector
+-
+token.h
+/home/Maskime/A/M1/CPP/projet2/src/token.h
+
